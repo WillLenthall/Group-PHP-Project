@@ -1,0 +1,170 @@
+/*General CSS*/
+*{
+    font-family: Helvetica , Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+    display:block;
+}
+
+body {
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin:0px;
+    background-color: rgb(15,65,27);
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: rgb(15,65,27);
+}
+
+label{
+    color: rgb(31, 128, 50);
+}
+
+#title{
+    background-color: black;
+    height: 17vh;
+    width: 100%;
+    padding-left: 2vw;
+    padding-top: 2vh;
+}
+
+#title img {
+    float: left;
+    vertical-align: middle;
+    height: 90%;
+    min-height: 60px;
+}
+
+#title h1 {
+    clear: right;
+    padding-left: 10vw;
+    padding-top: 3vh;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+#content {
+    background-color: white;
+    padding: 2%;
+    min-height: 70vh;
+    border-top: 5px solid rgb(31, 128, 50);
+    border-bottom: 5px solid rgb(31, 128, 50);
+}
+
+@media screen and (max-width: 575px){
+    #content {
+        border-top: none;
+    }
+
+    #menu #loginButton{
+        margin-top: 2vh;
+    }
+
+    #menu #regButton{
+        margin-bottom: 2vh;
+    }
+}
+
+#menu {
+    background-color: black;
+    color: white;
+    border-top: 5px solid rgb(31, 128, 50);
+    border-bottom: 5px solid rgb(31, 128, 50);
+    list-style-type: none;
+    padding-top: 2vh;
+}
+
+#menu label{
+    color: white;
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+#menu a{
+    color: white;
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    color: rgb(31, 128, 50);
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(15,65,27);
+    color: white;
+    max-resolution: 0px;
+}
+
+footer hr {
+    width: 25em;
+}
+
+footer img {
+    width: 30px;
+    margin-right: 10px;
+    border:none;
+}
+
+#status {
+    margin-bottom: 0px;
+    display: inline;
+}
+
+@media screen and (min-width: 575px){
+    #status{
+        display: block;
+    }
+}
+
+#logOut{
+    display: block;
+    margin: 20px auto;
+}
+
+.pages{
+    text-align: center;
+}
+
+.benefits {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#yes{
+    margin-top: 30vh;
+    border-radius: 50%;
+}
+
+#no{
+    margin-top: 30vh;
+    border-radius: 50%;
+}
+
+#placement{
+    height: 69vh;
+    border: solid 2px black;
+    padding: 2em;
+}
+
+#application{
+    border: solid 2px black;
+    padding: 2em;
+}
+
+#buttons{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#accepted{
+    border: solid 2px black;
+    padding: 2em;
+}
